@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		715DA6241F06FF6D00652D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715DA6231F06FF6D00652D71 /* AppDelegate.swift */; };
+		715DA6261F06FF6D00652D71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715DA6251F06FF6D00652D71 /* ViewController.swift */; };
+		715DA6291F06FF6D00652D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715DA6271F06FF6D00652D71 /* Main.storyboard */; };
+		715DA62B1F06FF6D00652D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715DA62A1F06FF6D00652D71 /* Assets.xcassets */; };
+		715DA62E1F06FF6D00652D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715DA62C1F06FF6D00652D71 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		715DA6201F06FF6D00652D71 /* PlayTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		715DA6231F06FF6D00652D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		715DA6251F06FF6D00652D71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		715DA6281F06FF6D00652D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		715DA62A1F06FF6D00652D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		715DA62D1F06FF6D00652D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		715DA62F1F06FF6D00652D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		715DA61D1F06FF6D00652D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		715DA6171F06FF6D00652D71 = {
+			isa = PBXGroup;
+			children = (
+				715DA6221F06FF6D00652D71 /* PlayTouch */,
+				715DA6211F06FF6D00652D71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		715DA6211F06FF6D00652D71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				715DA6201F06FF6D00652D71 /* PlayTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		715DA6221F06FF6D00652D71 /* PlayTouch */ = {
+			isa = PBXGroup;
+			children = (
+				715DA6231F06FF6D00652D71 /* AppDelegate.swift */,
+				715DA6251F06FF6D00652D71 /* ViewController.swift */,
+				715DA6271F06FF6D00652D71 /* Main.storyboard */,
+				715DA62A1F06FF6D00652D71 /* Assets.xcassets */,
+				715DA62C1F06FF6D00652D71 /* LaunchScreen.storyboard */,
+				715DA62F1F06FF6D00652D71 /* Info.plist */,
+			);
+			path = PlayTouch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		715DA61F1F06FF6D00652D71 /* PlayTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715DA6321F06FF6D00652D71 /* Build configuration list for PBXNativeTarget "PlayTouch" */;
+			buildPhases = (
+				715DA61C1F06FF6D00652D71 /* Sources */,
+				715DA61D1F06FF6D00652D71 /* Frameworks */,
+				715DA61E1F06FF6D00652D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayTouch;
+			productName = PlayTouch;
+			productReference = 715DA6201F06FF6D00652D71 /* PlayTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		715DA6181F06FF6D00652D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = martynov;
+				TargetAttributes = {
+					715DA61F1F06FF6D00652D71 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7YPNN524J3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 715DA61B1F06FF6D00652D71 /* Build configuration list for PBXProject "PlayTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 715DA6171F06FF6D00652D71;
+			productRefGroup = 715DA6211F06FF6D00652D71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				715DA61F1F06FF6D00652D71 /* PlayTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		715DA61E1F06FF6D00652D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715DA62E1F06FF6D00652D71 /* LaunchScreen.storyboard in Resources */,
+				715DA62B1F06FF6D00652D71 /* Assets.xcassets in Resources */,
+				715DA6291F06FF6D00652D71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		715DA61C1F06FF6D00652D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715DA6261F06FF6D00652D71 /* ViewController.swift in Sources */,
+				715DA6241F06FF6D00652D71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		715DA6271F06FF6D00652D71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715DA6281F06FF6D00652D71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		715DA62C1F06FF6D00652D71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715DA62D1F06FF6D00652D71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		715DA6301F06FF6D00652D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		715DA6311F06FF6D00652D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		715DA6331F06FF6D00652D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7YPNN524J3;
+				INFOPLIST_FILE = PlayTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PlayTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		715DA6341F06FF6D00652D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7YPNN524J3;
+				INFOPLIST_FILE = PlayTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PlayTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		715DA61B1F06FF6D00652D71 /* Build configuration list for PBXProject "PlayTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715DA6301F06FF6D00652D71 /* Debug */,
+				715DA6311F06FF6D00652D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715DA6321F06FF6D00652D71 /* Build configuration list for PBXNativeTarget "PlayTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715DA6331F06FF6D00652D71 /* Debug */,
+				715DA6341F06FF6D00652D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 715DA6181F06FF6D00652D71 /* Project object */;
+}
